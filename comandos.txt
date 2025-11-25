@@ -1,0 +1,26 @@
+# == crear ambiente virtual ==
+
+#windows
+python -m venv .venv
+
+#mac
+python3 -m venv .venv
+
+# === Activar ambiente virtual ===
+source .venv/bin/activate
+
+# == Instalar librerias ==
+
+"windows
+pip install -r requierements.txt
+
+#mac
+pip3 install -r requierements.txt
+
+# === GITHUB === 
+
+# estado de la branch
+git status
+
+# guardar cambios
+git add 
